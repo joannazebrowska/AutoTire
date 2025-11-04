@@ -1,0 +1,44 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+*.log
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.user
+
+# Visual Studio Code
+.history/
+.vscode/
+
+# ASP.NET
+appsettings.*.json
+secrets.json
+
+# Others
+*.dbmdl
+*.bak
+*.tmp
+*.cache
+*.pdb
+*.exe
+*.dll
+*.json
