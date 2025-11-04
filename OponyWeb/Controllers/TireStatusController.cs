@@ -5,6 +5,7 @@ using OponyWeb.Dto;
 using System.ComponentModel;
 using System.Data;
 using System.Net;
+using System.Reflection.Metadata;
 using System.Text.Json;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -20,7 +21,7 @@ namespace OponyWeb.Controllers
             _config = config;
         }
 
-        [HttpGet("location/{location}/tire-status")]
+        [HttpGet("location/{location}/tire-status/{tireType}")]
         public ActionResult<TireStatusOutputDto> GetTireStatus(string location, string tireType)
         {
 
@@ -30,13 +31,22 @@ namespace OponyWeb.Controllers
 
             List<float> temps = new List<float>();
 
+            var coordinatesResponse = new WebClient().DownloadString($"http://api.openweathermap.org/geo/1.0/direct?q={location}&limit=1&appid={_config["apikey"]}");
+            var coordinatesDocument = JsonDocument.Parse(coordinatesResponse);
+
+            var lat = coordinatesDocument.RootElement[0].GetProperty("lat").ToString();
+            var lon = coordinatesDocument.RootElement[0].GetProperty("lon").ToString();
+
+
+
             while (dtm <= endDate)
             {
+
                 var date = dtm.ToString("yyyy-MM-dd");
-                var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=52.848174&lon=20.668257&date={date}&appid={_config["apikey"]}&units=metric");
+                var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&date={date}&appid={_config["apikey"]}&units=metric");
                 var document = JsonDocument.Parse(response);
 
-                var dateString = document.RootElement.GetProperty("date").ToString();
+                //var dateString = document.RootElement.GetProperty("date").ToString();
 
                 var minTempString = document.RootElement
                     .GetProperty("temperature")

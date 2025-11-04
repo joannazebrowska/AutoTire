@@ -2,7 +2,7 @@
   {
     "ContainingType": "OponyWeb.Controllers.TireStatusController",
     "Method": "GetTireStatus",
-    "RelativePath": "api/location/{location}/tire-status",
+    "RelativePath": "api/location/{location}/tire-status/{tireType}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -15,7 +15,7 @@
       {
         "Name": "tireType",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
