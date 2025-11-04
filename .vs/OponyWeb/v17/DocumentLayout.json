@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\controllers\\tirestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\controllers\\tirestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\dto\\tirestatusoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\dto\\tirestatusoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\oponyweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\oponyweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\osobadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\osobadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 88,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "OponyWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\appsettings.json",
+              "RelativeToolTip": "OponyWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-02T14:20:49.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Program.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Program.cs",
+              "RelativeToolTip": "OponyWeb\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:10:31.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OsobaDto.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OsobaDto.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\OsobaDto.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OsobaDto.cs",
+              "RelativeToolTip": "OponyWeb\\OsobaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:28:45.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\WeatherForecast.cs",
+              "RelativeToolTip": "OponyWeb\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:15:49.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OponyWeb\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OponyWeb\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-01T15:11:32.1Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OponyWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OponyWeb.csproj",
+              "RelativeDocumentMoniker": "OponyWeb\\OponyWeb.csproj",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OponyWeb.csproj",
+              "RelativeToolTip": "OponyWeb\\OponyWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T15:59:20.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TireStatusOutputDto.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Dto\\TireStatusOutputDto.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\Dto\\TireStatusOutputDto.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Dto\\TireStatusOutputDto.cs",
+              "RelativeToolTip": "OponyWeb\\Dto\\TireStatusOutputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T13:25:22.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TireStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\TireStatusController.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\Controllers\\TireStatusController.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\TireStatusController.cs",
+              "RelativeToolTip": "OponyWeb\\Controllers\\TireStatusController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:16:02.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "OponyWeb\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "OponyWeb\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:11:53.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@OponyWeb_HostAddress = http://localhost:5286
+
+GET {{OponyWeb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
