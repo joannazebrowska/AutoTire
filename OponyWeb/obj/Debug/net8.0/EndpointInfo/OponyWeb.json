@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/location/{location}/tire-status/{tireType}": {
+    "/api/location/{location}/tire-status": {
       "get": {
         "tags": [
           "TireStatus"
@@ -13,14 +13,6 @@
         "parameters": [
           {
             "name": "location",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "tireType",
             "in": "path",
             "required": true,
             "schema": {

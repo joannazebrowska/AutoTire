@@ -34,3 +34,15 @@ C:\Users\zebro\source\repos\OponyWeb\OponyWeb\obj\Debug\net8.0\refint\OponyWeb.d
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\obj\Debug\net8.0\OponyWeb.pdb
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\obj\Debug\net8.0\OponyWeb.genruntimeconfig.cache
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\obj\Debug\net8.0\ref\OponyWeb.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\OponyWeb.staticwebassets.runtime.json
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

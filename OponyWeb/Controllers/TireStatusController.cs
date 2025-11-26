@@ -21,10 +21,9 @@ namespace OponyWeb.Controllers
             _config = config;
         }
 
-        [HttpGet("location/{location}/tire-status/{tireType}")]
-        public ActionResult<TireStatusOutputDto> GetTireStatus(string location, string tireType)
+        [HttpGet("location/{location}/tire-status")]
+        public ActionResult<TireStatusOutputDto> GetTireStatus(string location)
         {
-
             DateTime endDate = DateTime.Today;
             DateTime startDate = endDate.AddDays(-2);
             DateTime dtm = startDate;
@@ -37,16 +36,11 @@ namespace OponyWeb.Controllers
             var lat = coordinatesDocument.RootElement[0].GetProperty("lat").ToString();
             var lon = coordinatesDocument.RootElement[0].GetProperty("lon").ToString();
 
-
-
             while (dtm <= endDate)
             {
-
                 var date = dtm.ToString("yyyy-MM-dd");
                 var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&date={date}&appid={_config["apikey"]}&units=metric");
                 var document = JsonDocument.Parse(response);
-
-                //var dateString = document.RootElement.GetProperty("date").ToString();
 
                 var minTempString = document.RootElement
                     .GetProperty("temperature")
@@ -73,21 +67,20 @@ namespace OponyWeb.Controllers
             System.Diagnostics.Debug.WriteLine(averageTemp);
 
             string recommendation;
+            //zmienic 7 na const i stringu na enum
+            //zastanowic sie czy typ opon jest w aplikacji w ogole potrzebny
+            //^ niezaleznie od typu zwraca jakie opony powinno sie miec zalozone, niepotrzebny jest konkretny typ
+            // ODPOWIEDZ NIE MOZE BYC ZWRACANA STRINGIEM!
+            const int temperatureThreshold = 7;
 
-            if (averageTemp < 7 && tireType == "summer")
+            if (averageTemp < temperatureThreshold)
             {
                 recommendation = "zmien opony na zimowe!";
             }
-            else if (averageTemp >= 7 && tireType == "winter")
+            else
             {
                 recommendation = "zmien opony na letnie!";
             }
-            else
-            {
-                recommendation = "nie musisz zmieniac opon";
-            }
-
-
 
 
             return Ok(new TireStatusOutputDto()
@@ -97,5 +90,7 @@ namespace OponyWeb.Controllers
                 Recommendation = recommendation
             });
         }
+
+
     }
 }
