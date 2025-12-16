@@ -1,9 +1,13 @@
 ﻿body {
     background-color: rgb(218, 245, 255);
+    display: grid;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
     text-align: center;
+    font-size: 17px;
 }
 
 h1 {
@@ -13,3 +17,37 @@ h1 {
 form {
     text-align: center;
 }
+
+.container {
+    margin: auto;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(189, 175, 250);
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+
+}
+
+
+input[type=text] {
+  border: 2px solid rgb(191, 115, 241);
+  border-radius: 8px;
+}
+
+#summary {
+    display: flex;
+    justify-content: center;
+}
+
+.search-section {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.summary-section {
+    margin-top: 0px;
+}
+/* #searchBtn {
+    gap: 2px;
+} */

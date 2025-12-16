@@ -6,11 +6,18 @@ using System.ComponentModel;
 using System.Data;
 using System.Net;
 using System.Reflection.Metadata;
+using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OponyWeb.Controllers
 {
+    public enum TireRecommendation
+    {
+        ChangeToWinter,
+        ChangeToSummer
+    }
+
     [ApiController]
     [Route("api")]
     public class TireStatusController : ControllerBase
@@ -66,20 +73,20 @@ namespace OponyWeb.Controllers
             float averageTemp = temps.Average();
             System.Diagnostics.Debug.WriteLine(averageTemp);
 
-            string recommendation;
+            TireRecommendation recommendation;
             //zmienic 7 na const i stringu na enum
-            //zastanowic sie czy typ opon jest w aplikacji w ogole potrzebny
-            //^ niezaleznie od typu zwraca jakie opony powinno sie miec zalozone, niepotrzebny jest konkretny typ
             // ODPOWIEDZ NIE MOZE BYC ZWRACANA STRINGIEM!
+            // mozna se zrobioc w MaxTempString/Min zeby od razu bralo float .GetSingle()
             const int temperatureThreshold = 7;
+
 
             if (averageTemp < temperatureThreshold)
             {
-                recommendation = "zmien opony na zimowe!";
+                recommendation = TireRecommendation.ChangeToWinter;
             }
             else
             {
-                recommendation = "zmien opony na letnie!";
+                recommendation = TireRecommendation.ChangeToSummer;
             }
 
 

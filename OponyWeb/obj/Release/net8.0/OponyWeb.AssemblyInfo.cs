@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("540684f2-7821-4761-a7de-3659763163ef")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abff4fa0658f8a327ecd9cba7abcea7681ba9b25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25020d161f8acfeae6db4e860fc8416ef6265697")]
 [assembly: System.Reflection.AssemblyProductAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OponyWeb"
+    "\\AutoTire",
+    "\\AutoTire\\OponyWeb",
+    "\\OponyWeb",
+    "\\OponyWeb\\Controllers",
+    "\\OponyWeb\\Dto",
+    "\\OponyWeb\\Properties",
+    "\\OponyWeb\\wwwroot",
+    "\\OponyWeb\\wwwroot\\css",
+    "\\OponyWeb\\wwwroot\\js"
   ],
-  "SelectedNode": "\\OponyWeb\\appsettings.json",
+  "SelectedNode": "\\OponyWeb\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

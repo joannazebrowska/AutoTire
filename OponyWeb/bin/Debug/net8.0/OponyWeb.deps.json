@@ -18,7 +18,6 @@
       "Microsoft.EntityFrameworkCore/9.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "9.0.10",
-          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.10",
           "Microsoft.Extensions.Caching.Memory": "9.0.10",
           "Microsoft.Extensions.Logging": "9.0.10"
         },
@@ -37,8 +36,6 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/9.0.10": {},
-      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Caching.Abstractions/9.0.10": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.10"
@@ -139,7 +136,6 @@
       },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
           "Swashbuckle.AspNetCore.Swagger": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
@@ -204,20 +200,6 @@
       "sha512": "sha512-I3TWAs5Lbzmzu8S0T6qXhzBiO3CznYLrfE59W0npkqNHfWGH8CgA66LrHMWxWOXVTD4145QwYqiWNCdLwpJ1Ew==",
       "path": "microsoft.entityframeworkcore.abstractions/9.0.10",
       "hashPath": "microsoft.entityframeworkcore.abstractions.9.0.10.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/9.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mXNl0Gg3l3zGrClLCHepB+b7rYVuFfB9qQJwya0dUSHFuR1T0jMD8KxuNVyhQSfoWIepanhzjcG8TUNGXOcU0Q==",
-      "path": "microsoft.entityframeworkcore.analyzers/9.0.10",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.10.nupkg.sha512"
-    },
-    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
-      "path": "microsoft.extensions.apidescription.server/6.0.5",
-      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/9.0.10": {
       "type": "package",

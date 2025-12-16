@@ -46,3 +46,4 @@ C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensi
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\zebro\source\repos\OponyWeb\OponyWeb\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zebro\source\repos\OponyWeb\OponyWeb\obj\Debug\net8.0\swae.build.ex.cache

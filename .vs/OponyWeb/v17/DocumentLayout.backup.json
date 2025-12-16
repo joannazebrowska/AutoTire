@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\controllers\\tirestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\controllers\\tirestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\dto\\tirestatusoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\dto\\tirestatusoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\oponyweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\oponyweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\dto\\tiretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|solutionrelative:oponyweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8F1C7A5-5C8B-461F-9F28-EA0BB5D60788}|OponyWeb\\OponyWeb.csproj|c:\\users\\zebro\\source\\repos\\oponyweb\\oponyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -53,33 +57,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 219,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 167,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "OponyWeb\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "OponyWeb\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T20:03:22.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "OponyWeb\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Properties\\launchSettings.json",
               "RelativeToolTip": "OponyWeb\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-01T15:11:32.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T15:11:32.1Z"
             },
             {
               "$type": "Document",
@@ -89,14 +80,37 @@
               "RelativeDocumentMoniker": "OponyWeb\\Program.cs",
               "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Program.cs",
               "RelativeToolTip": "OponyWeb\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T15:10:31.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "OponyWeb",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OponyWeb.csproj",
+              "RelativeDocumentMoniker": "OponyWeb\\OponyWeb.csproj",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OponyWeb.csproj",
+              "RelativeToolTip": "OponyWeb\\OponyWeb.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T23:54:14.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "OponyWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "OponyWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-06T20:03:22.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\appsettings.json",
               "RelativeDocumentMoniker": "OponyWeb\\appsettings.json",
@@ -108,19 +122,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "OponyWeb\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\index.html",
               "RelativeToolTip": "OponyWeb\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-06T20:03:40.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "OponyWeb\\wwwroot\\css\\site.css",
@@ -132,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "OponyWeb\\WeatherForecast.cs",
@@ -145,7 +159,7 @@
           ]
         },
         {
-          "DockedWidth": 181,
+          "DockedWidth": 233,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -154,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "TireType.cs",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Dto\\TireType.cs",
               "RelativeDocumentMoniker": "OponyWeb\\Dto\\TireType.cs",
@@ -162,38 +176,36 @@
               "RelativeToolTip": "OponyWeb\\Dto\\TireType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:30:45.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T14:30:45.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TireStatusOutputDto.cs",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Dto\\TireStatusOutputDto.cs",
               "RelativeDocumentMoniker": "OponyWeb\\Dto\\TireStatusOutputDto.cs",
               "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Dto\\TireStatusOutputDto.cs",
               "RelativeToolTip": "OponyWeb\\Dto\\TireStatusOutputDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T13:25:22.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T13:25:22.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TireStatusController.cs",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\TireStatusController.cs",
               "RelativeDocumentMoniker": "OponyWeb\\Controllers\\TireStatusController.cs",
               "ToolTip": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\Controllers\\TireStatusController.cs",
               "RelativeToolTip": "OponyWeb\\Controllers\\TireStatusController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwE8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T18:16:02.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "OponyWeb.csproj",
               "DocumentMoniker": "C:\\Users\\zebro\\source\\repos\\OponyWeb\\OponyWeb\\OponyWeb.csproj",
               "RelativeDocumentMoniker": "OponyWeb\\OponyWeb.csproj",
@@ -201,8 +213,7 @@
               "RelativeToolTip": "OponyWeb\\OponyWeb.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-02T15:59:20.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T15:59:20.715Z"
             }
           ]
         }

@@ -1,9 +1,11 @@
-﻿namespace OponyWeb.Dto
+﻿using OponyWeb.Controllers;
+
+namespace OponyWeb.Dto
 {
     public class TireStatusOutputDto
     {
         public float AverageTemperature { get; set; }
         public int DaysBelowTreshold { get; set; }
-        public string Recommendation { get; set; }
+        public TireRecommendation Recommendation { get; set; }
     }
 }

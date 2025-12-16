@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d62b25e18ff0a17ced7e1cf4f6626c0ea10d9ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25020d161f8acfeae6db4e860fc8416ef6265697")]
 [assembly: System.Reflection.AssemblyProductAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OponyWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

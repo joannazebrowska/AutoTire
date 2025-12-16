@@ -1,6 +1,6 @@
 ﻿
 const searchBtn = document.querySelector('#searchBtn');
-const cityInput = document.querySelector('#cityInput')
+const cityInput = document.querySelector('#cityInput');
 
 searchBtn.addEventListener('click', () =>{
     const inputValue = cityInput.value;
@@ -8,18 +8,27 @@ searchBtn.addEventListener('click', () =>{
     console.log(inputValue);
 
     fetch(url)
-        .then(Response => {
-            if (Response.ok) {
-            return Response.json();   
-        };
+        .then(response => {
+            return response.json();   
     }).then(data => {
         // console.log(html)
-        const res = JSON.stringify(data.recommendation);
-        document.getElementById('result').innerHTML = res;
-        
-        
-    })
+        // console.log("gowno")
+        // const res = JSON(data.recommendation);
+        // document.getElementById('recommendation').innerHTML = rec;
 
+        if(data.recommendation === 'ChangeToWinter') {
+            document.getElementById('recommendation').innerText = 'zmien na zimowe';
+        } else if(data.recommendation === 'ChangeToSummer') {
+            document.getElementById('recommendation').innerText = 'zmien na letnie';
+        }
+
+        const averageTemp = (data.averageTemperature);
+        document.getElementById('averageTemp').innerHTML = averageTemp;
+
+        const daysBelow = (data.daysBelowTreshold);
+        document.getElementById('daysBelow').innerHTML = daysBelow;
+    
+    })
 })
 
 

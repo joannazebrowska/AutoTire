@@ -108,6 +108,13 @@
   },
   "components": {
     "schemas": {
+      "TireRecommendation": {
+        "enum": [
+          "ChangeToWinter",
+          "ChangeToSummer"
+        ],
+        "type": "string"
+      },
       "TireStatusOutputDto": {
         "type": "object",
         "properties": {
@@ -120,8 +127,7 @@
             "format": "int32"
           },
           "recommendation": {
-            "type": "string",
-            "nullable": true
+            "$ref": "#/components/schemas/TireRecommendation"
           }
         },
         "additionalProperties": false
