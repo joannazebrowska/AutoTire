@@ -1,8 +1,7 @@
 ﻿body {
     background-color: rgb(218, 245, 255);
-    display: grid;
-    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* do navi bar (przerwa na gorze) */
 }
 
 p {
@@ -14,15 +13,15 @@ h1 {
     text-align: center;
 }
 
-form {
+/* form {
     text-align: center;
-}
+} */
 
 .container {
     margin: auto;
     height: 250px;
     width: 500px;
-    background-color: rgb(189, 175, 250);
+    background-color: #8AB6D6;
     border-radius: 15px;
     display: grid;
     justify-content: center;
@@ -31,7 +30,7 @@ form {
 
 
 input[type=text] {
-  border: 2px solid rgb(191, 115, 241);
+  border: 2px solid #3D84B8;
   border-radius: 8px;
 }
 
@@ -40,14 +39,64 @@ input[type=text] {
     justify-content: center;
 }
 
-.search-section {
-    margin-bottom: 25px;
+#search-section {
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.summary-section {
+/* .summary-section {
     margin-top: 0px;
+} */
+
+.hidden {
+    visibility: hidden;
 }
 /* #searchBtn {
     gap: 2px;
 } */
+
+#searchBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    padding: 3.1px 11px;
+}
+
+ #dupa {
+    text-decoration: none;
+ }
+
+ /* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+} */
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #2978B5;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0061A8;
+  color: white;
+}

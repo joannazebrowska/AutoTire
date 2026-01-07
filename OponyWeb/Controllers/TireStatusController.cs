@@ -1,22 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.OpenApi.Models;
-using Microsoft.OpenApi.Validations;
+using OponyWeb.Connectors;
 using OponyWeb.Dto;
-using System.ComponentModel;
-using System.Data;
-using System.Net;
-using System.Reflection.Metadata;
-using System.Security.Cryptography.X509Certificates;
-using System.Text.Json;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using OponyWeb.Enums;
 
 namespace OponyWeb.Controllers
 {
-    public enum TireRecommendation
-    {
-        ChangeToWinter,
-        ChangeToSummer
-    }
+
+    //przeniesc do odzielnego plyku
+    //public enum TireRecommendation
+    //{
+    //    ChangeToWinter,
+    //    ChangeToSummer
+    //}
 
     [ApiController]
     [Route("api")]
@@ -31,68 +26,54 @@ namespace OponyWeb.Controllers
         [HttpGet("location/{location}/tire-status")]
         public ActionResult<TireStatusOutputDto> GetTireStatus(string location)
         {
+            const int temperatureThreshold = 7;
+
+            var coordinates = new GeolocationConnector(_config).GetCoordinates(location);
+
+            var daysBelow = 0;
+
             DateTime endDate = DateTime.Today;
             DateTime startDate = endDate.AddDays(-2);
             DateTime dtm = startDate;
 
             List<float> temps = new List<float>();
-
-            var coordinatesResponse = new WebClient().DownloadString($"http://api.openweathermap.org/geo/1.0/direct?q={location}&limit=1&appid={_config["apikey"]}");
-            var coordinatesDocument = JsonDocument.Parse(coordinatesResponse);
-
-            var lat = coordinatesDocument.RootElement[0].GetProperty("lat").ToString();
-            var lon = coordinatesDocument.RootElement[0].GetProperty("lon").ToString();
-
             while (dtm <= endDate)
             {
-                var date = dtm.ToString("yyyy-MM-dd");
-                var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&date={date}&appid={_config["apikey"]}&units=metric");
-                var document = JsonDocument.Parse(response);
-
-                var minTempString = document.RootElement
-                    .GetProperty("temperature")
-                    .GetProperty("min")
-                    .ToString();
-                var minTemp = float.Parse(minTempString);
-
-                var maxTempString = document.RootElement
-                    .GetProperty("temperature")
-                    .GetProperty("max")
-                    .ToString();
-                var maxTemp = float.Parse(maxTempString);
-
-                dtm = dtm.AddDays(1);
-
-                float averageTemperature = (minTemp + maxTemp) / 2;
+                var weather = new WeatherConnector(_config).GetWeather(coordinates, dtm);
+                var averageTemperature = weather.GetAverageTemp();
                 temps.Add(averageTemperature);
 
-                System.Diagnostics.Debug.WriteLine(date);
-                System.Diagnostics.Debug.WriteLine(averageTemperature);
+                if (averageTemperature < 7)
+                {
+                    daysBelow++;
+                }
+
+                dtm = dtm.AddDays(1);
             }
 
             float averageTemp = temps.Average();
-            System.Diagnostics.Debug.WriteLine(averageTemp);
 
-            TireRecommendation recommendation;
-            //zmienic 7 na const i stringu na enum
-            // ODPOWIEDZ NIE MOZE BYC ZWRACANA STRINGIEM!
-            // mozna se zrobioc w MaxTempString/Min zeby od razu bralo float .GetSingle()
-            const int temperatureThreshold = 7;
+            var winter = TireRecommendationResult.TireRecommendation.ChangeToWinter;
+            var summer = TireRecommendationResult.TireRecommendation.ChangeToSummer;
 
+            var recommendation = averageTemp < temperatureThreshold ?
+                winter : summer;
 
-            if (averageTemp < temperatureThreshold)
-            {
-                recommendation = TireRecommendation.ChangeToWinter;
-            }
-            else
-            {
-                recommendation = TireRecommendation.ChangeToSummer;
-            }
+            //^ 
+            //if (averageTemp < temperatureThreshold)
+            //{
+            //    recommendation = TireRecommendation.ChangeToWinter;
+            //}
+            //else
+            //{
+            //    recommendation = TireRecommendation.ChangeToSummer;
+            //}
 
+            //var test = temps.Count(x => x < temperatureThreshold);
 
             return Ok(new TireStatusOutputDto()
             {
-                DaysBelowTreshold = 3,
+                DaysBelowTreshold = daysBelow,
                 AverageTemperature = averageTemp,
                 Recommendation = recommendation
             });

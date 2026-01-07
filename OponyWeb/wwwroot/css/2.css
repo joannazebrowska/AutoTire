@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(218, 245, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* do navi bar (przerwa na gorze) */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2978B5;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0061A8;
+  color: white;
+}
+
+#rationale {
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+
