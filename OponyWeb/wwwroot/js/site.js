@@ -10,6 +10,10 @@ const form = document.querySelector('#search-section');
 //     }
 // })
 
+function fanfical(x) {
+    return Number.parseFloat(x).toFixed(1);
+}
+
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
     searchCity();
@@ -30,13 +34,13 @@ function searchCity() {
             // document.getElementById('recommendation').innerHTML = rec;
 
             if(data.recommendation === 'ChangeToWinter') {
-                document.getElementById('recommendation').innerText = 'powinieneś zmienić opony na zimowe';
+                document.getElementById('recommendation').innerText = 'Opony zimowe';
             } else if(data.recommendation === 'ChangeToSummer') {
-                document.getElementById('recommendation').innerText = 'powinieneś zmienić opony na letnie';
+                document.getElementById('recommendation').innerText = 'Opony letnie';
             }
 
             const averageTemp = (data.averageTemperature);
-            document.getElementById('averageTemp').innerHTML = averageTemp;
+            document.getElementById('averageTemp').innerHTML = (fanfical(averageTemp));
 
             const daysBelow = (data.daysBelowTreshold);
             document.getElementById('daysBelow').innerHTML = daysBelow;

@@ -20,28 +20,30 @@
             <input type="submit" value="wyszukaj" id="searchBtn">
         </form>
 
-        <!-- <h3>rekomendacja</h3>
-        <div id="recommendation"></div>
-        <div id="averageTemp"></div> -->
+        <h2 id="summary">podsumowanie</h2>
 
-        <section id="summarySection" class="summary-section">
-            <div class="container">
-                <h2 id="summary">podsumowanie</h2>
-                    <p id="rec">
-                        <strong>rekomendacja:</strong>
-                        <span id="recommendation"></span>
-                    </p>
-                    <p id="avr">
-                        <strong>średnia temperatura:</strong>
-                        <span id="averageTemp"></span>
-                    </p>
-                    <p id="days">
-                        <strong>dni poniżej 7°C:</strong>
-                        <span id="daysBelow"></span>
-                        <span></span>
-                    </p>
+        <div class="rows">
+            <div class="column">
+                <div class="text">dni poniżej 7°C</div>
+                <div class="container">
+                    <strong id="daysBelow"></strong>
+                </div>
             </div>
-        </section>
+
+            <div class="column">
+                <div class="text">rekomendacja</div>
+                <div class="container">
+                    <strong id="recommendation"></strong>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="text">średnia temperatura</div>
+                <div class="container">
+                    <strong id="averageTemp"></strong>
+                </div>
+            </div>
+        </div>
 
         <!-- <h3"><a id="dupa" href="test.html">kliknij</a></h3> -->
         

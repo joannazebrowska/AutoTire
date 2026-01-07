@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: rgb(218, 245, 255);
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0; /* do navi bar (przerwa na gorze) */
 }
@@ -17,17 +17,42 @@ h1 {
     text-align: center;
 } */
 
-.container {
-    margin: auto;
-    height: 250px;
-    width: 500px;
+/* .container1,
+.container2,
+.container3 {
+    height: 7.5rem;
+    width: 10rem;
     background-color: #8AB6D6;
     border-radius: 15px;
-    display: grid;
-    justify-content: center;
-
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3rem;
 }
 
+.summary-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.summary-section2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#daysBelow {
+    font-size: 1.4rem;
+}
+
+#recommendation {
+    font-size: 1.3rem;
+}
+
+#averageTemp {
+    font-size: 1.4rem;
+} */
 
 input[type=text] {
   border: 2px solid #3D84B8;
@@ -37,6 +62,8 @@ input[type=text] {
 #summary {
     display: flex;
     justify-content: center;
+    margin-top: 2.5rem;
+
 }
 
 #search-section {
@@ -44,16 +71,9 @@ input[type=text] {
     text-align: center;
 }
 
-/* .summary-section {
-    margin-top: 0px;
-} */
-
 .hidden {
     visibility: hidden;
 }
-/* #searchBtn {
-    gap: 2px;
-} */
 
 #searchBtn {
     border: none;
@@ -68,14 +88,6 @@ input[type=text] {
  #dupa {
     text-decoration: none;
  }
-
- /* .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-} */
-
 
 .topnav {
   overflow: hidden;
@@ -92,11 +104,40 @@ input[type=text] {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #dddddd;
   color: black;
 }
 
 .topnav a.active {
   background-color: #0061A8;
   color: white;
+}
+
+.container {
+    height: 2.7rem;
+    width: 10rem;
+    background-color: #8AB6D6;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
+}
+
+.column {
+    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }

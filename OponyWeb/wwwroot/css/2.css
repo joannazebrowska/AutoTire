@@ -30,8 +30,13 @@ body {
 
 #rationale {
     margin-top: 3rem;
-    text-align: center;
+    margin-left: 40rem;
+    margin-right: 40rem;
+}
 
+#why {
+  margin-top: 3rem;
+  text-align: center;
 }
 
 
