@@ -13,7 +13,7 @@ namespace OponyWeb.Connectors
 
         public Coordinates GetCoordinates(string location)
         {
-            var coordinatesResponse = new WebClient().DownloadString($"http://api.openweathermap.org/geo/1.0/direct?q={location}&limit=1&appid={_config["apikey"]}");
+            var coordinatesResponse = new WebClient().DownloadString($"http://api.openweathermap.org/geo/1.0/direct?q={location}&limit=1&appid={_config["OpenWeather"]}");
             var coordinatesDocument = JsonDocument.Parse(coordinatesResponse);
 
             var lat = coordinatesDocument.RootElement[0].GetProperty("lat").GetDecimal();

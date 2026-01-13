@@ -15,7 +15,7 @@ namespace OponyWeb.Connectors
         {
             var dateString = date.ToString("yyyy-MM-dd");
 
-            var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={coordinates.Lat}&lon={coordinates.Lon}&date={dateString}&appid={_config["apikey"]}&units=metric");
+            var response = new WebClient().DownloadString($"https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={coordinates.Lat}&lon={coordinates.Lon}&date={dateString}&appid={_config["OpenWeather"]}&units=metric");
             var document = JsonDocument.Parse(response);
 
             var minTempString = document.RootElement
