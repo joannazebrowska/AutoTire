@@ -2,16 +2,8 @@
 const cityInput = document.querySelector('#cityInput');
 const form = document.querySelector('#search-section');
 
-
-// cityInput.addEventListener('keypress', (e) =>{
-//     if(e.key === "Enter") {
-//         e.preventDefault();
-//         searchCity();
-//     }
-// })
-
-function fanfical(x) {
-    return Number.parseFloat(x).toFixed(1);
+function round(x) {
+    return Number.parseFloat(x).toPrecision(2);
 }
 
 form.addEventListener('submit', (event) =>{
@@ -22,17 +14,11 @@ form.addEventListener('submit', (event) =>{
 function searchCity() {
     const inputValue = cityInput.value;
     let url = `https://localhost:7214/api/location/${inputValue}/tire-status`;
-    console.log(inputValue);
 
     fetch(url)
             .then(response => {
                 return response.json();   
     }).then(data => {
-            // console.log(html)
-            // console.log("gowno")
-            // const res = JSON(data.recommendation);
-            // document.getElementById('recommendation').innerHTML = rec;
-
             if(data.recommendation === 'ChangeToWinter') {
                 document.getElementById('recommendation').innerText = 'Opony zimowe';
             } else if(data.recommendation === 'ChangeToSummer') {
@@ -40,43 +26,88 @@ function searchCity() {
             }
 
             const averageTemp = (data.averageTemperature);
-            document.getElementById('averageTemp').innerHTML = (fanfical(averageTemp));
+            document.getElementById('averageTemp').innerHTML = (round(averageTemp));
 
             const daysBelow = (data.daysBelowTreshold);
             document.getElementById('daysBelow').innerHTML = daysBelow;
+
+            var lat = (data.latitude)
+            var lon = (data.longitude)
+            
+            function search() {
+                fetch('https://places.googleapis.com/v1/places:searchNearby', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Goog-Api-Key': 'AIzaSyAgpXHQdJCRLtrb0YMZEBXaJFhjEMC3NPk',
+                    'X-Goog-FieldMask': 'places.displayName,places.formatted_address,places.rating,places.nationalPhoneNumber,places.regularOpeningHours'
+                },
+                body: JSON.stringify({
+                    'includedTypes': [
+                    'car_repair'
+                    ],
+                    'maxResultCount': 5,
+                    'locationRestriction': {
+                    'circle': {
+                        'center': {
+                        'latitude': lat,
+                        'longitude': lon
+                        },
+                        'radius': 5000
+                    }
+                    }
+                })
+                }).then(response => {
+                    return response.json();
+                }).then(d => {
+
+                    var container = document.getElementById('nerbayCarRepair');
+                    
+                    document.getElementById('nerbayCarRepair').innerHTML = "";
+                    
+                    d.places.forEach(place => {
+                        const div = document.createElement("div");
+                        div.id = "karta-warsztatu";
+
+                        const name = document.createElement("p");
+                        name.textContent = place.displayName.text;
+
+                        const rating = document.createElement("p");
+                        rating.textContent = `⭐ ${place.rating}`;
+
+                        const address = document.createElement("p");
+                        address.textContent = `📌 ${place.formattedAddress}`;
+
+                        const phoneNumber = document.createElement("p");
+                        phoneNumber.textContent = `📞 ${place.nationalPhoneNumber}`;
+
+                        // const openNow = document.createElement("p");
+                        // openNow.textContent = place.regularOpeningHours.openNow;
+
+                        // if(openNow === true) {
+                        //     textContent = "Otwarte"
+                        // } else {
+                        //     textContent = "Zamknięte"
+                        // }
+
+                        div.appendChild(name);
+                        div.appendChild(rating);
+                        div.appendChild(address);
+                        div.appendChild(phoneNumber);
+                        // div.appendChild(openNow);
+                        container.appendChild(div);
+                    })
+                })
+            }
+            search();
     })
 }
 
-// async function searchCity() {
-//     const inputValue = cityInput.value;
-
-//     try {
-//         const response = await fetch(`https://localhost:7214/api/location/${inputValue}/tire-status`)
-//         const data = await response.json();
-//         return data;
-//     } catch (error) {
-//         console.error('Error fetching data:', error)
-//     }
-// }
-
-// async function renderData() {
-//     const container = document.querySelector('.container');
-//     const data = await searchCity();
-
-//     if(!data) {
-//         return;
-//     }
-
-//     data.array.forEach(item => {
-//         const card = document.createElement('div');
-//         card.classList.add('card')
-
-//         const averageTemperature = document.createElement('h2');
-//         averageTemperature = data.averageTemperature;
-
-//         container.appendChild(card);
-//         card.appendChild(averageTemperature)
-//     });
-// }
-
-// renderData();
+function ShowSummary() {
+    var rows = document.getElementById("rows");
+    rows.style.display = "flex";
+    var summary = document.getElementById("summary");
+    summary.style.display = "flex";
+    var carRepair = document.getElementById("carRepair");
+    carRepair.style.display = "flex";
+}

@@ -67,6 +67,14 @@
           },
           "recommendation": {
             "$ref": "#/components/schemas/TireRecommendation"
+          },
+          "latitude": {
+            "type": "number",
+            "format": "float"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "float"
           }
         },
         "additionalProperties": false

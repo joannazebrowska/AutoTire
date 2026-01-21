@@ -5,14 +5,6 @@ using OponyWeb.Enums;
 
 namespace OponyWeb.Controllers
 {
-
-    //przeniesc do odzielnego plyku
-    //public enum TireRecommendation
-    //{
-    //    ChangeToWinter,
-    //    ChangeToSummer
-    //}
-
     [ApiController]
     [Route("api")]
     public class TireStatusController : ControllerBase
@@ -59,23 +51,18 @@ namespace OponyWeb.Controllers
             var recommendation = averageTemp < temperatureThreshold ?
                 winter : summer;
 
-            //^ 
-            //if (averageTemp < temperatureThreshold)
-            //{
-            //    recommendation = TireRecommendation.ChangeToWinter;
-            //}
-            //else
-            //{
-            //    recommendation = TireRecommendation.ChangeToSummer;
-            //}
-
             //var test = temps.Count(x => x < temperatureThreshold);
+
+            float latitude = (float)coordinates.Lat;
+            float longitude = (float)coordinates.Lon;
 
             return Ok(new TireStatusOutputDto()
             {
                 DaysBelowTreshold = daysBelow,
                 AverageTemperature = averageTemp,
-                Recommendation = recommendation
+                Recommendation = recommendation,
+                Latitude = latitude,
+                Longitude = longitude
             });
         }
 

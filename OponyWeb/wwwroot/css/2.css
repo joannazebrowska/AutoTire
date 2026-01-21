@@ -1,7 +1,7 @@
 body {
     background-color: rgb(218, 245, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0; /* do navi bar (przerwa na gorze) */
+    margin: 0;
 }
 
 .topnav {

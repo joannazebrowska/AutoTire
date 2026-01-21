@@ -1,7 +1,7 @@
 ﻿body {
-    background-color: white;
+    background-color: #aecce2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0; /* do navi bar (przerwa na gorze) */
+    margin: 0; 
 }
 
 p {
@@ -12,47 +12,6 @@ p {
 h1 {
     text-align: center;
 }
-
-/* form {
-    text-align: center;
-} */
-
-/* .container1,
-.container2,
-.container3 {
-    height: 7.5rem;
-    width: 10rem;
-    background-color: #8AB6D6;
-    border-radius: 15px;
-    font-size: 100px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 3rem;
-}
-
-.summary-section1 {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-}
-
-.summary-section2 {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-#daysBelow {
-    font-size: 1.4rem;
-}
-
-#recommendation {
-    font-size: 1.3rem;
-}
-
-#averageTemp {
-    font-size: 1.4rem;
-} */
 
 input[type=text] {
   border: 2px solid #3D84B8;
@@ -85,7 +44,7 @@ input[type=text] {
     padding: 3.1px 11px;
 }
 
- #dupa {
+ #safeDrive {
     text-decoration: none;
  }
 
@@ -116,7 +75,7 @@ input[type=text] {
 .container {
     height: 2.7rem;
     width: 10rem;
-    background-color: #8AB6D6;
+    background-color: #E8F0FE;
     border-radius: 7px;
     font-size: 1.1rem;
     text-align: center;
@@ -125,14 +84,10 @@ input[type=text] {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.rows {
+#rows {
     display: flex;
     justify-content: center;
     gap: 2.2rem;
-}
-
-.column {
-    
 }
 
 .text {
@@ -140,4 +95,32 @@ input[type=text] {
     justify-content: center;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+}
+
+#carRepair {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.6rem;
+    margin-bottom: 0rem;
+    font-size: 24px;
+}
+
+#karta-warsztatu{
+    display: inline-table;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+    text-align: center;
+    height: 17rem;
+    width: 16rem;
+    background-color: #E8F0FE;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#x {
+    display: flex;
+    justify-content: center;
 }

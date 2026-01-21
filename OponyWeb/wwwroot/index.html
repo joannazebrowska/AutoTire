@@ -9,7 +9,7 @@
     <body>
         <div class = "topnav">
             <a class="active" href="index.html">Strona główna</a>
-            <a id="dupa" href="test.html">Bezpieczna jazda</a>
+            <a id="safeDrive" href="test.html">Bezpieczna jazda</a>
         </div>
 
         <h1>Sprawdź pogodę i dobierz opony</h1>
@@ -17,12 +17,13 @@
 
         <form id="search-section">
             <input type="text" id="cityInput" placeholder="nazwa miasta" required>
-            <input type="submit" value="wyszukaj" id="searchBtn">
+            <input type="submit" onclick="ShowSummary()" value="wyszukaj" id="searchBtn">
         </form>
 
-        <h2 id="summary">podsumowanie</h2>
 
-        <div class="rows">
+        <h2 id="summary" style="display: none;">podsumowanie</h2>
+
+        <div id="rows" style="display: none;">
             <div class="column">
                 <div class="text">dni poniżej 7°C</div>
                 <div class="container">
@@ -45,7 +46,13 @@
             </div>
         </div>
 
-        <!-- <h3"><a id="dupa" href="test.html">kliknij</a></h3> -->
+            <div id="nerbayCarRepairReload">
+                <h1 id="carRepair" style="display: none">pobliskie warsztaty</h1>
+                <div id="x">
+                    <div id="nerbayCarRepair">
+                </div>
+            </div>
+        </div>
         
         <script src="js/site.js"></script>
     </body>
