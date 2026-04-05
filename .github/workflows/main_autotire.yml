@@ -20,6 +20,9 @@ jobs:
         with:
           submodules: false
 
+      - name: List files
+        run: Get-ChildItem -Recurse -Filter "*.csproj" | Select-Object FullName
+
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
