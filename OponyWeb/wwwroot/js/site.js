@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) =>{
 
 function searchCity() {
     const inputValue = cityInput.value;
-    let url = `https://localhost:7214/api/location/${inputValue}/tire-status`;
+    let url = `https://autotire-ezbva4g0cxewe9ev.polandcentral-01.azurewebsites.net/api/location/${inputValue}/tire-status`;
 
     fetch(url)
             .then(response => {
