@@ -1,4 +1,4 @@
-# AutoTire - Weather-Based Tire Recommendation System
+# AutoTire
 
 Aplikacja webowa ułatwiająca kierowcom podjęcie decyzji o sezonowej zmianie opon (letnie/zimowe). System agreguje i analizuje dane historyczne z zewnętrznych serwisów pogodowych, a także pozwala na lokalizację najbliższych warsztatów samochodowych w okolicy użytkownika.
 
